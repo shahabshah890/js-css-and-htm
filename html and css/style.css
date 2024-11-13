@@ -1,0 +1,411 @@
+
+
+
+.top-bar{
+  background-color: #fff;
+  box-shadow: -3px -12px 36px 15px #DCDCDC
+
+}
+
+.top-nav__link li{
+  display: inline-block;
+  
+
+ 
+  
+ 
+  
+
+}
+
+.top-nav__link{
+  display: inline-block;
+  
+   
+  
+  
+}
+.top-nav{
+  height: 96px;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-evenly;
+
+  align-items: center;
+  margin-bottom: 7px;
+  align-self: center;
+  
+  
+  
+  
+  
+  
+  
+}
+
+.top-nav__logo{
+  width: 70px;
+  margin: 3rem;
+  
+  
+
+
+ 
+  
+}
+a{
+  text-decoration: none;
+  font-weight: 550;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  
+
+}
+
+.top-nav__link li a{
+  padding: 0.5rem 1rem;
+  display: inline-block;
+  color: blueviolet;
+  text-transform: uppercase;
+  transition: color 0.2s ease-in-out;
+  
+
+}
+.top-nav__link li a:hover{
+  color:orange;
+  text-decoration: underline;
+}
+
+body,input,textarea{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1,h2,h3,h4{
+  color: #545454;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+  line-height: 1.1;
+}
+h1{
+  font-size: 4rem;
+}
+h2{
+  font-size: 3rem;
+}
+h3{
+  font-size: 1.5rem;
+}
+h4{
+  font-size: 1rem;
+}
+p input,
+textarea{
+  line-height: 1.5;
+  letter-spacing: 0.05rem;
+  font-weight: 300;
+  color: #737373;
+
+}
+p{
+  font-size: 1.2rem;
+
+}
+input, textarea{
+  font-size: 0.8rem;
+}
+strong{
+ 
+  font-weight: bold;
+  visibility:visible;
+}
+
+.hero{
+  background-image: url(./banner-bg.jpg);
+  background-repeat:no-repeat ;
+  background-size: cover;
+}
+.hero__container{
+  max-width: 71.25rem;
+  margin: 0 auto;
+  align-items: center;
+  gap: 4rem;
+}
+.container{
+ display: flex;
+ padding: 6rem 2rem;
+}
+
+.hero__text,
+.hero__image{
+  flex-grow: 1;
+  flex-basis: 0;
+
+}
+
+.hero__text__heading{
+  color: #fff;
+}
+.hero__text__paragraph{
+  color: #fff;
+  margin-top: 2rem;
+}
+.hero__text__button{
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #813986;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  transition: background-color 0.3rem ease-in-out;
+  border-radius: 1.2rem;
+  box-shadow: 0 1px 1px 0 yellow;
+  
+}
+
+.hero__text__button:hover{
+  background-color: #7425AA;
+  
+
+}
+button{
+  border: none;
+  background: none;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  text-transform: uppercase;
+  background-color: #813986;
+  border-radius: 1.3rem;
+  font-size: 0.8rem;
+  color: #fff;
+  letter-spacing: 0.1rem;
+
+
+  
+
+}
+button:hover{
+  background-color: #7425AA;
+  box-shadow: 0 3px 13px 0 yellow;
+}
+
+.hero__image img{
+  width: 100%;
+}
+
+.equal-cols{
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+.equal-cols>*{
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.section-padding{
+  padding: 6rem 2rem;
+}
+
+.About__container{
+ gap: 4rem;
+}
+
+
+
+.Features__text__paragraph{
+  
+  margin-top: 2rem;
+}
+.Features__text__button{
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #813986;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.1rem;
+  transition: background-color 0.3rem ease-in-out;
+  border-radius: 1.2rem;
+  box-shadow: 0 1px 1px 0 yellow;
+  
+}
+
+.About__text__button:hover{
+  background-color: #7425AA;
+  
+
+}
+
+.Features__image img{
+  width: 100%;
+}
+
+.Features__text__list__item{
+  display: flex;
+  margin-top: 4rem;
+  align-items: start;
+
+}
+.Features__text__list__paragraph{
+  margin-top: 1rem;
+}
+
+.services{
+  background: orange;
+  color: #fff;
+
+}
+.services__card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1.5rem;
+  background-color: #fff;
+  color: #545454;
+
+  
+}
+
+.services__card__icon{
+  background-color: #7425AA;
+  border-radius: 9999px;
+  height: 6rem;
+  width: 6rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services__card__heading{
+  font-weight: 700;
+}
+.services__card__description{
+  font-size: 1rem;
+}
+.services__cantainer{
+  gap: 2rem;
+}
+.primary-button{
+  margin-top: 2rem;
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #813986;
+  text-transform: uppercase;
+  color: #fff;
+
+  transition: background-color 0.3rem ease-in-out;
+  border-radius: 1.7rem;
+}
+.primary-button:hover{
+  background: #000000;
+}
+.faq__header{
+  text-align: center;
+  padding-bottom: 0;
+}
+.faq__header__description{
+  margin: 2rem auto 0 auto;
+  max-width: 40rem;
+  text-align: center;
+}
+.faq__text__paragraph{
+  margin-top: 2rem;
+  max-width: 20rem;
+  
+ 
+}
+.faq__text__button{
+  margin-top: 2rem;
+}
+.faq__image img{
+  width: 100%;
+}
+
+.ac-panel{
+  align-items: center;
+}
+.contact__map__iframe{
+  margin: 3rem;
+  border: 0;
+  align-self: auto;
+
+}
+.contact__form{
+ width: 650px;
+ height: 360px;
+ background: /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fc3232+0,2989d8+50,207cca+51,7db9e8+100 */
+  linear-gradient(to bottom, #fc3232 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */;
+}
+.contact{
+  gap: 0;
+}
+.contact__form_fm{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 5rem auto;
+  width: 80%;
+}
+.contact__form__fm__row{
+  gap: 1rem;
+  display: flex;
+}
+.contact__form__fm__row__field{
+  flex-grow: 1;
+  padding: 2rem;
+  background-color:  orchid;
+  color: white;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.contact__form__fm__row__field::placeholder{
+  color: #fff;
+
+}
+.contact__form__fm__button{
+  align-self: center;
+}
+.page-footer__container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.5rem 1rem;
+}
+.page-footer__copyright{
+  font-size: 1.3rem;
+}
+.page-footer__social-links{
+  gap: 1.5rem;
+  display: flex;
+}
+.page-footer__social-links a{
+  display: inline-block;
+  background-color: #7425AA;
+  font-size: 1.5rem;
+  width: 3rem;
+  height: 3rem;
+  color: #fff;
+  text-align: center;
+  line-height: 2;
+  border-radius: 0.6rem;
+  transition: background-color 0.1s ease-in-out;
+
+}
+.page-footer__social-links a:hover{
+  background: #fc3232;
+  
+}
+
+@media screen and (min-width:700px) {
+  .equal-cols{
+    flex-direction: row;
+  }
+  
+  
+}
+
+
